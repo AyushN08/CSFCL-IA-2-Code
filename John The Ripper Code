@@ -1,0 +1,4 @@
+sudo useradd -r yash
+sudo passwd yash
+sudo cat /etc/shadow
+sudo john -format-crypt /etc/shadow
