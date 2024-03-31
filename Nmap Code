@@ -1,0 +1,6 @@
+ifconfig
+ipcalc 10.0.2.15
+nmap -sP 10.0.2.0/24
+sudo nmap -sT -p 80, 443 10.0.2.0/24
+sudo nmap -sS -p 80, 443 10.0.2.0/24
+sudo nmap -A 10.0.2.0/24
